@@ -1,0 +1,11 @@
+This is an alpha release of Beta Vulgaris aka Beet ChucK framework and live electronics software. 
+
+It has been successfully tested on Fedora 13 GNU/Linux with default alsa audio driver during two live performances. 
+
+
+To use it do one of two:
+1. edit Loader.ck file in Utils folder with paths to sound files you want to use and start run.sh script. The software is prepared to work with MIDI controller only, so it's not said to be very useful with no additional editing
+2. use it as a framework to build your own software
+
+
+To contact me: krzysztof [at] trzewiczek info
