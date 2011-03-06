@@ -5,6 +5,8 @@ EVENTS="Events/KeyEvent Events/MidiEvent"
 BEETS="Beets/Beet Beets/Looper Beets/Cutter Beets/Gainer Beets/Panner Beets/Stammer Beets/Threshold"
 
 
+python midi2osc.py
+
 ## To be used when working with jackd
 #chuck $UTILS $EVENTS $BEETS main
 
