@@ -3,7 +3,7 @@
 <<< "Loading class" >>>;
 Stammer stm => dac;
 2.0 => stm.set_freq;
-spork ~ stm.local_loop();
+spork ~ stm.on();
 
 <<< "Loading audio files" >>>;
 SndBuf buf_1;

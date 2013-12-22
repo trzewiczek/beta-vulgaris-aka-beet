@@ -53,7 +53,7 @@ public class Stammer extends Chubgraph {
   }        
 
 
-  fun void local_loop() {
+  fun void on() {
     int i;
     while(true) {
       envelope.keyOff();
