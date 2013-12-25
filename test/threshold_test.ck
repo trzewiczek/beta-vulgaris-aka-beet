@@ -1,14 +1,15 @@
-<<< "Testing Threshold class" >>>;
+<<< ">>> Testing Threshold class", "" >>>;
 
-<<< "Loading class" >>>;
+<<< ">>> Loading class", "">>>;
 Threshold thr => dac;
+0.75 => thr.set_threshold;
 spork ~ thr.on();
 
-<<< "Loading audio files" >>>;
+<<< ">>> Loading audio files", "">>>;
 SndBuf buf_1;
 me.dir() + "/../sounds/test_sound_01.wav" => buf_1.read;
 
 // TODO change parameters to test if it works
-<<< "Running test" >>>;
+<<< ">>> Running test", "">>>;
 buf_1 => thr;
 10::second => now;

@@ -8,15 +8,14 @@ public class Threshold extends Chubgraph {
   // Constructor
   {
     5::ms => envelope.duration;
-
-    0.0 => threshold;
+    0.0   => threshold;
 
     inlet => envelope => outlet;
   }
 
 
-  fun void set_threshold(float thresh) {
-    thresh => threshold;
+  fun void set_threshold(float _th) {
+    _th => threshold;
 
     if(threshold > 1.0) {
       1.0 => threshold;
