@@ -11,6 +11,7 @@ Dependencies
   python 2.x  
   pyportmidi
   pyliblo
+  invoke (optional)
 
 
 To use it as a live electronic software
