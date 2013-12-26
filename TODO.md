@@ -9,3 +9,4 @@ TODO LIST FOR VERSION 2.0
  * Review MIDI and OSC handling
  * Add easy handling of sounds library
  * Recode main stage setup
+ * Abstract Track concept into a seperate class
