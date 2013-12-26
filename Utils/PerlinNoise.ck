@@ -25,7 +25,7 @@ public class PerlinNoise
         0.25 => _persistence;
 
         (0.0, 200.0) => Std.rand2f => seed;
-        0.01 => delta;
+        0.01 => _delta;
     }
 
     //  resturns next perlin noise value
